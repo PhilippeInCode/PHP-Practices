@@ -7,7 +7,10 @@
 </head>
 <body>
     <?php
-   echo round(3.141592, 2); // 3.14
+    $num = 5.18756;
+    $truncado = bcdiv($num, 1, 3);
+    
+    echo "<h2>" . "El valor de " . $num . " truncando es: " . $truncado . "</h2>"
     ?>
 </body>
 </html>

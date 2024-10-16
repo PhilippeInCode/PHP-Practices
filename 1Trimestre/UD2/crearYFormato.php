@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php
-   echo round(3.141592, 2); // 3.14
+    // la fecha actual
+    $hoy=date_create(date("m/d/Y"));
+    
     ?>
 </body>
 </html>
