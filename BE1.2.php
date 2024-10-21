@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Resultado de la Suma</title>
+    <title>Actividad Formativa 1</title>
 </head>
 <body>
     <?php

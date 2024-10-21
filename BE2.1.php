@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Resultado de las Operaciones</title>
+    <title>Actividad Formativa 2</title>
 </head>
 <body>
     <?php

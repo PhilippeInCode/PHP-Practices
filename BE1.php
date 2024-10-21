@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Sumar Dos Números</title>
+    <title>Actividad Formativa 1</title>
 </head>
 <body>
     <h2>Introduce dos números para sumarlos:</h2>

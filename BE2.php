@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Operaciones con Cuatro Números</title>
+    <title>Actividad Formativa 2</title>
 </head>
 <body>
     <h2>Introduce cuatro números:</h2>

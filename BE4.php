@@ -1,12 +1,13 @@
+<!-- BE4.php -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Suma y Par/Impar</title>
+    <title>Actividad Formativa 4</title>
 </head>
 <body>
-    <h2>Introduce dos números:</h2>
-    <form action="BE1.php" method="post">
+    <h2>Introduce dos números para sumarlos:</h2>
+    <form action="BE4.1.php" method="post">
         <label for="num1">Número 1:</label>
         <input type="text" name="num1" id="num1" required>
         <br><br>

@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Formulario de Datos Personales</title>
+    <title>Actividad Formativa 3</title>
 </head>
 <body>
     <h2>Introduce tus datos personales:</h2>
