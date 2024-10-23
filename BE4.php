@@ -1,4 +1,3 @@
-<!-- BE4.php -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
