@@ -47,25 +47,19 @@
         "happiness" => "felicidad"
     );
 
-    // Mostrar las palabras disponibles en el diccionario
       echo "<h3>Palabras disponibles en el diccionario:</h3>";
       echo "<ul>"; 
       foreach (array_keys($diccionario) as $palabra) {
           echo "<li>$palabra</li>"; 
       }
-      echo "</ul>"; // Fin de la lista
+      echo "</ul>"; 
 
-    // Comprobar si se ha enviado una solicitud POST
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Obtener la palabra introducida por el usuario
         $palabra = strtolower(trim($_POST["palabra"]));
 
-        // Comprobar si la palabra existe en el diccionario
         if (array_key_exists($palabra, $diccionario)) {
-            // Mostrar la traducción
             echo "<p>La traducción en español de <strong>'$palabra'</strong> es: <strong>" . $diccionario[$palabra] . "</strong></p>";
         } else {
-            // Mensaje si la palabra no está en el diccionario
             echo "<p>La palabra <strong>'$palabra'</strong> no se encuentra en el diccionario.</p>";
         }
     }
