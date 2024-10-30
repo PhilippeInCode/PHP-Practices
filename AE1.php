@@ -7,7 +7,8 @@
 </head>
 <body>
     <?php
-
+    echo "<h1>Guía turística</h1>";
+    echo "<h3>Rellene los siguientes datos:</h3>";
 
 
 
