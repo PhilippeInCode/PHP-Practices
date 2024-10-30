@@ -6,9 +6,6 @@
     <title>Actividad Formativa 5</title>
 </head>
 <body>
-
-
-
     <h1>Conversor de Unidades de Medida</h1>
     <form action="" method="POST">
         <label for="cantidad">Cantidad:</label>
@@ -30,10 +27,8 @@
         </select><br/>
 
         <input type="submit" value="Convertir">
+        
     </form>
-
-
-
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $cantidad = $_POST['cantidad'];
@@ -74,8 +69,5 @@
         echo "<p>$cantidad $unidad_original son $resultado $unidad_destino.</p>";
     }
     ?>
-
-
-
 </body>
 </html>

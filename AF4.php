@@ -8,13 +8,16 @@
 <body>
 <?php
 
-$numeros = [1, 10, 5, 1, 5, 5, 8];
+$array = array(1, 10, 5, 1, 5, 5, 8);
 
-$frecuencia = array_count_values($numeros);
+echo "<strong> Array original: </strong>";  
+print_r($array);
 
-foreach ($frecuencia as $numero => $conteo) {
+$contador = array_count_values($array);
+
+foreach ($contador as $valor => $conteo) {
     $texto = $conteo > 1 ? "veces" : "vez";
-    echo "El número $numero aparece $conteo $texto.<br/>";
+    echo "<p>El número $valor aparece $conteo $texto.<br/>";
 }
 
 ?>
