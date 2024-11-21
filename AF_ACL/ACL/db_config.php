@@ -1,15 +1,15 @@
 <?php
-// Debes cambiar los valores según la configuración de la bbdd
-$db_host = 'localhost';
-$db_user = 'tu_nombredeusuario';
-$db_pass = 'tu_contraseña';
-$db_name = 'tu_bbdd';
 
-//Creamos la conexión a la bbdd
+$db_host = 'localhost';
+$db_user = 'root';
+$db_pass = '';
+$db_name = 'felipe_bbdd';
+
+//Conexión con la BBDD
 $bbdd = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
-//Verificamos la conexión
+//Verificar la conexión
 if ($bbdd->connect_error){
-    die('Error de conexión a la base de datos:' . $db->connect_error);
+    die('Error de conexión a la base de datos: ' . $bbdd->connect_error);
 }
 ?>
