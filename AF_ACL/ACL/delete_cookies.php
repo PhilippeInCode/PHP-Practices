@@ -8,3 +8,4 @@ setcookie("permissions", "", time() - 3600, "/");
 header("Location: response.php");
 exit();
 ?>
+
